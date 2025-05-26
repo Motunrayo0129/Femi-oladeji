@@ -19,8 +19,7 @@ for(int count = 0; count < ascendingOrder.length; count++) {
 	ascendingOrder[count] = numbers;
 	
 }
-	System.out.println(Array.toString(AscendingSquareArray.Squares(ascendingOrder) + " are in ascending orders"));
-
+	System.out.println(Arrays.toString(AscendingSquareArray.Squares(ascendingOrder)) + " are in ascending order");
 
 
 }
